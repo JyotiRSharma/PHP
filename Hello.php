@@ -1,5 +1,69 @@
 <?php
 
+    // $a = 100; # assigning integer values
+    // $a = "Jyoti"; # assigning string 
+    // $a = array("jyoti", 1, 2, 2.45); # assigning arrays
+    // $a = true; # assigning true
+    // $a = false; # assigning false
+    // $a = "Hello"."World"; # contatinating 2 strings
+    // $a = 2;
+
+    // $a = $a%10;
+    // echo $a, "<br>";
+
+    // var_dump($a); # displaying the type of variable along with the value.
+
+    # If Statment
+    // $a = 20;
+    // $b = 20;
+    // if (($a <=> $b) == 0) {
+    //     echo "a is equal to b <br>";
+    // }
+
+    // echo "EOF reached";
+
+
+    # Global and Local variables
+    // $x = 10; //Global variable
+
+    // function test() {
+    //     $y = 100;
+    //     global $x; // global variable can be used with global keyword in functions.
+    //     echo $x.$y;
+    // }
+
+    // test();
+
+    #arrays
+    // $arr = array(1, 2, 3, 5);
+    // echo $arr[1];
+    // echo "<pre>";
+    // print_r($arr);
+    // echo "</pre>"; //Use pre tags to format the data
+
+        // echo "<ul>";
+        // for ($i = 0; $i < 4; $i++) {
+            // echo "<li> $arr[$i]</li>";
+        // }
+        // echo "</ul>";
+
+    # another way of declaring array
+    // $arr2 = [1, 2, 3, 4];
+    // for ($i = 0; $i < 4; $i++) {
+    //     echo $arr2[$i]."<br>";
+    // }
+
+    # Assosciative array or dictionary
+    $assArr = [
+        "Jyoti" => 1,
+        "Ranjan" => 2,
+        "Sharma" => 3
+    ];
+
+    echo "<pre>";
+    print_r($assArr);
+    echo "</pre>";
+
     $age = 15;
 
     // if ($age >= 18 and $age < 20) {
@@ -117,7 +181,4 @@
 // };
 
 // echo $func(200);
-
-
-
 ?>
