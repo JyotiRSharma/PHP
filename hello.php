@@ -184,26 +184,105 @@
 
 #OOPS
 
-class calculations
-{
-    public $a, $b, $c;
-    function sum() {
-        $this->c = $this->a + $this->b;
-        return $this->c;
-    }
+// class calculations
+// {
+//     public $a, $b, $c;
+//     function sum() {
+//         $this->c = $this->a + $this->b;
+//         return $this->c;
+//     }
 
-    function sub() {
-        $this->c = $this->a - $this->b;
-        return $this->c;
-    }
-}
+//     function sub() {
+//         $this->c = $this->a - $this->b;
+//         return $this->c;
+//     }
+// }
 
-$c1 = new calculations();
+// $c1 = new calculations();
 
-$c1->a = 10;
-$c1->b = 100;
+// $c1->a = 10;
+// $c1->b = 100;
 
-echo "Sum of " . $c1->a . " and " . $c1->b . " from c1 object = " . $c1->sum();
+// echo "Sum of " . $c1->a . " and " . $c1->b . " from c1 object = " . $c1->sum();
+
+#Constructor 
+// class nameAge
+// {
+//     public $name, $age;
+//     function __construct($name, $age)
+//     {
+//         $this->name = $name;
+//         $this->age = $age;
+//     }
+
+//     function show()
+//     {
+//         echo "Hello " . $this->name . "<br>";
+//     }
+// }
+
+// $b1 = new nameAge("Jyoti", 12);
+// $b1->show();
+// $b2 = new nameAge("Ravi", 24);
+// $b2->show();
+
+#Inheritance
+// class Employee
+// {
+//     public $name;
+//     public $age;
+//     public $sal;
+
+//     function __construct($name, $age, $sal)
+//     {
+//         $this->name = $name;
+//         $this->age = $age;
+//         $this->sal = $sal;
+//     }
+
+//     function disp()
+//     {
+//         echo "***Employee Details***" . "<br>";
+//         echo "Name = " . $this->name. "<br>";
+//         echo "Age = ". $this->age. "<br>";
+//         echo "Sal = ". $this->sal. "<br>";
+//     }
+// }
+
+// class Manager extends Employee
+// {
+//     public $name;
+//     public $age;
+//     public $sal;
+
+//     function __construct($name, $age, $sal)
+//     {
+//         $this->name = $name;
+//         $this->age = $age;
+//         $this->sal = $sal;
+//     }
+
+//     function disp()
+//     {
+//         $ta = 500;
+//         $phone = 1000;
+//         //Allowances
+//         $totalSal = $this->sal + $ta + $phone;
+
+//         echo "***Manager Details***" . "<br>";
+//         echo "Name = " . $this->name. "<br>";
+//         echo "Age = ". $this->age. "<br>";
+//         echo "Sal = ". $this->sal. "<br>";
+
+//     }
+
+// }
+
+// $m1 = new Manager("Ram", 25, 29000);
+// $e1 = new Employee("Jyoti", 15, 17000);
+
+// $m1->disp();
+// $e1->disp();
 
 
 ?>
